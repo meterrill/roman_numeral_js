@@ -43,4 +43,23 @@ describe("romanNumeral", function() {
     expect(romanNumeral("50")).to.equal("L");
   });
 
+  it("returns correct number of ones", function() {
+    expect(romanNumeral("1")).to.equal("I");
+  });
+
+  it("returns correct number of ones", function() {
+    expect(romanNumeral("4")).to.equal("IV");
+  });
+
+  it("returns correct number of ones", function() {
+    expect(romanNumeral("7")).to.equal("VII");
+  });
+
+  it("returns correct number of ones", function() {
+    expect(romanNumeral("9")).to.equal("IX");
+  });
+
+  it("returns correct number of ones", function() {
+    expect(romanNumeral("5")).to.equal("V");
+  });
 });
